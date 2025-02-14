@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "clientes")
-public class Client {
+public class ClientModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
