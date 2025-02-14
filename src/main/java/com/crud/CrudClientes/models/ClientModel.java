@@ -23,4 +23,20 @@ public class ClientModel {
     @Column(name = "telefone")
     private String phone;
 
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
 }
