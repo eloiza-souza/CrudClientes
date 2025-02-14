@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application">
+    <envs>
+      <env name="DB_PASSWORD" value="admin" />
+      <env name="DB_URL" value="jdbc:postgresql://localhost:5432/crud" />
+      <env name="DB_USERNAME" value="postgres" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.crud.CrudClientes.CrudClientesApplication" />
+    <module name="CrudClientes" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
